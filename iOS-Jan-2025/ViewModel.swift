@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
+import Combine
 final class ViewModel: ObservableObject {
   
-    
+    private var subscriptions = Set<AnyCancellable>()
+ 
 }
