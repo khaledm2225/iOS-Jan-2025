@@ -8,6 +8,9 @@
 import SwiftUI
 final class ViewModel: ObservableObject {
   
+    func testMe() {
+        
+    }
     
     
 }
