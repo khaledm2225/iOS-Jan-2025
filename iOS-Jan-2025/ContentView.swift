@@ -12,13 +12,16 @@ struct ContentView: View {
     @StateObject private var vm = ViewModel()
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: .zero) {
+           
+            Button("Do Something") {
+                
+            }
+            
+            
         }
-        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .background(Color.cyan)
     }
 }
 
